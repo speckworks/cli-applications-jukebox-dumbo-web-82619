@@ -47,6 +47,7 @@ def run(songs)
     case user_input
     when "exit"
       exit_jukebox
+      break
     when "play" 
       play(songs)
     when "help"
