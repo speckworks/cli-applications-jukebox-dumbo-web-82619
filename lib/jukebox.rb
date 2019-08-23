@@ -37,7 +37,6 @@ end
 
 def exit_jukebox
   puts "Goodbye"
-  break
 end
 
 def run(songs)
@@ -48,6 +47,7 @@ def run(songs)
     case user_input
     when "exit"
       exit_jukebox
+      break
     when "play" 
       play(songs)
     when "help"
